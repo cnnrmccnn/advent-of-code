@@ -6,10 +6,12 @@
   "scripts": {
     "1a": "ts-node-esm 2022/01/src/a.ts",
     "1b": "ts-node-esm 2022/01/src/b.ts",
-    "2a": "ts-node-esm -i 2022/02/src/a.ts",
+    "2a": "ts-node-esm 2022/02/src/a.ts",
     "2b": "ts-node-esm 2022/02/src/b.ts",
-    "3a": "ts-node-esm -i 2022/03/src/a.ts",
-    "3b": "ts-node-esm 2022/03/src/b.ts"
+    "3a": "ts-node-esm 2022/03/src/a.ts",
+    "3b": "ts-node-esm 2022/03/src/b.ts",
+    "4a": "ts-node-esm 2022/04/src/a.ts",
+    "4b": "ts-node-esm 2022/04/src/b.ts"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
